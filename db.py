@@ -1,10 +1,11 @@
 import mysql.connector
 
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
+    'host': 'database-1.c70ocqomyiwx.us-east-2.rds.amazonaws.com',
+    'user': 'admin',
     'password': 'Summer2020$',
-    'database': 'bathroom_extra'
+    'database': 'AWS_Bathroom_Occupancy',
+    'port': 3306
 }
 
 def get_connection():
